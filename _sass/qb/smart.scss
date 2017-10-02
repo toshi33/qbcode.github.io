@@ -1,0 +1,423 @@
+@charset "utf-8";
+
+/* 1.----------------------------------------- */
+
+/* 2.----------------------------------------- */
+
+/* 3.----------------------------------------- */
+
+/* 4.----------------------------------------- */
+
+/* 5.----------------------------------------- */
+
+/* 6.----------------------------------------- */
+
+/* 7.----------------------------------------- */
+
+
+
+
+@media only screen and (max-width: 640px) {
+/* 1.----------------------------------------- */
+#header {display:none;}
+
+#sph_header {
+	display:block;
+	height:45px;
+	background-color:#ffffff;
+}
+
+#sph_header #logo {
+	width:147px;
+	height:27px;
+	float:left;
+	padding:8px 0 0 15px;
+}
+
+#sph_header img {
+	width:100%;
+}
+
+#sph_header #menu_box {
+	width:136px;
+	float:right;
+	padding:12px 10px 0 0;
+}
+
+#sph_header #menu_box li {
+	float:right;
+}
+
+#sph_header #menu_box li#sphn_03 {
+	width:20px;
+	padding-left:15px;
+}
+
+#sph_header #menu_box li#sphn_03 a {
+	display:block;
+	padding:2px 0;
+}
+
+#sph_header #menu_box li#sphn_02 {
+	display:none;
+}
+
+#sph_header #menu_box li#sphn_01,
+#sph_header #menu_box li#sphn_02 {
+	width:70px;
+}
+
+#sph_header #menu_box li#sphn_01 a,
+#sph_header #menu_box li#sphn_02 a {
+	border:1px solid #b6b6b6;
+	display:block;
+	height:17px;
+	padding:2px 0 0 0;
+	text-align:center;
+	font-size:10px;
+	text-decoration:none;
+	font-family: 'Muli', sans-serif;
+	color:#cecece;
+}
+
+#sph_navi {
+	display:block;
+}
+
+#sph_navi a {
+	font-family: 'Muli', sans-serif;
+	display:block;
+	text-decoration:none;
+}
+
+#sph_navi li.each_navi {
+	border:1px solid #e7e7ea;
+	border-top:none;
+}
+
+#sph_navi li.each_navi:first-child {
+	border-top:1px solid #e7e7ea;
+}
+
+#sph_navi li a {
+	height:28px;
+	padding:12px 10px 0 10px;
+}
+
+#sph_navi li.each_navi ul {
+	display:none;
+}
+
+#sph_navi li.each_navi li {
+	background:url(/lib/img/common/arrow_sph_menu.png) #e7e7ea no-repeat 10px 15px;
+	background-size:5px 10px;
+	border-top:1px solid #ffffff;
+}
+
+#sph_navi li.each_navi li a {
+	padding-left:20px;
+}
+
+#footer .copy {
+	font-size:10px;
+}
+
+#footer .dir_des {
+	font-size:9px;
+}
+/* 1.------------------END-------------------- */
+
+
+
+
+/* 2.----------------------------------------- */
+.flex-caption {font-size:12px; padding:2% 10%; width:80%; top:5%;}
+.flex-caption span {font-size:24px;}
+.flex-caption .btn_more {padding-top:20px; height:45px; width:45px; margin:0 auto;}
+.flex-caption .btn_more img {width:100%;}
+.flex-direction-nav li a {width:15px; height:26px; background-size:50% 50%!important;}
+
+.top_contents {
+	background-color:#f6f6f6;
+	padding:16px 0 35px 0;
+}
+
+.top_contents .inner {
+	max-width:320px;
+	margin:0 auto;
+}
+
+.top_contents ul {
+	margin:0 auto;
+	width:306px;
+}
+
+.top_contents li {
+	float:none;
+	padding:0 0 15px 0;
+	position:relative;
+	width:306px;
+}
+/* 2.------------------END-------------------- */
+
+
+
+
+/* 3.----------------------------------------- */
+#news_title h2 {
+	font-size:30px;
+	top:20%;
+}
+
+#news_contents {
+	padding:0 15px 30px 15px;
+}
+
+#contents_box .photo {
+	text-align:center;
+	float:none;
+	width:96%;
+	padding:30px 2% 0 2%;
+}
+
+#contents_box .photo img {
+	width:100%;
+}
+
+#news_contents li .title {
+	padding-top:10px;
+	width:100%;
+	float:none;
+}
+
+#news_contents li .thm {
+	width:100%;
+	float:none;
+	padding-top:10px;
+}
+
+#news_contents li .thm img {
+	width:100%;
+}
+/* 3.------------------END-------------------- */
+
+
+
+
+/* 4.----------------------------------------- */
+#ot_title h2 {
+	font-size:30px;
+	top:20%;
+}
+
+#ot_title h2 span {
+	font-size:12px;
+}
+
+.ot_contents {
+	padding:0 15px 30px 15px;
+}
+/* 4.------------------END-------------------- */
+
+
+
+
+
+/* 5.----------------------------------------- */
+.jot_cont {
+	padding:0 15px 70px 15px;
+}
+
+.jo_cont {
+	padding:0 15px 30px 15px;
+}
+
+#contents_box .team_cont {
+	padding:0 15px 40px 15px;
+}
+
+#contents_box .team_cont .left {
+	float:none;
+	width:100%;
+}
+
+#contents_box .team_cont .right {
+	float:none;
+	width:100%;
+}
+
+#oa_bot_cont {
+	background-size:auto 130%;
+}
+
+#oa_bot_cont .inner {
+	padding:30px 0 50px 0;
+	width:90%;
+}
+
+#ci_cont {
+	padding:0 15px 30px 15px;
+}
+
+#ci_cont .right,
+#ci_cont .left {
+	float:none;
+	width:100%;
+}
+/* 5.------------------END-------------------- */
+
+
+
+
+
+/* 6.----------------------------------------- */
+#vision_box .inner .left {
+	float:none;
+	padding:20px 0 25px 0;
+	width:50px;
+	margin:0 auto;
+}
+
+#vision_box .inner .left img {
+	width:100%;
+}
+
+#vision_box .inner .right {
+	float:none;
+	font-size:16px;
+	padding:0 0 40px 0;
+	width:90%;
+	margin:0 auto;
+}
+
+#vision_nk {
+	font-size:25px;
+}
+
+#vision_bot .inner {
+	padding:25px 15px 40px 15px;
+}
+
+#innovation_box .inner {
+	padding:30px 15px 30px 15px;
+}
+
+.innovation_mid .inner {
+	padding:40px 15px 30px 15px;
+}
+
+.innovation_mid .inner h4 {
+	padding:30px 0 15px 0;
+}
+
+.innovation_mid .inner .innovation_bot1 {
+	padding:30px 0 20px 0;
+}
+
+#technology_box1 .inner {
+	padding:40px 0 50px 0;
+}
+
+#technology_box1 .inner h3 {
+	padding:0 0 40px 0;
+}
+
+#technology_box1 .inner h4 {
+	padding:0 0 40px 0;
+}
+
+#technology_box1 .inner .tb1_in {
+	padding:35px 15px 25px 15px;
+}
+
+.technology_box2 .inner {
+	padding:45px 0 10px 0;
+}
+
+.technology_box2 .inner .tb2_in {
+	padding:30px 15px 20px 15px;
+}
+
+.technology_box2 .left {
+	float:none;
+	padding:0 0 30px 0;
+	width:100%;
+}
+
+.technology_box2 .right {
+	float:none;
+	padding:0 0 30px 0;
+	width:100%;
+}
+
+.technology_box2 .photo {
+	margin:0 auto;
+	padding:35px 0 40px 0;
+	width:100%;
+	font-family: 'Muli', sans-serif;
+}
+
+#technology_box3 .inner {
+	padding:40px 0 35px 0;
+}
+
+#technology_box3 .inner .tb3_in {
+	padding:30px 0 20px 0;
+}
+
+#technology_box3 .inner .photo {
+	width:90%;
+}
+
+.tech_footlink {
+	padding:30px 0 30px 0;
+}
+
+.tech_footlink a {
+	font-size:28px;
+}
+/* 6.------------------END-------------------- */
+
+
+
+
+
+/* 7.----------------------------------------- */
+#data_form table td {
+padding: 10px 0px 10px 0;
+width:200px;
+}
+
+#data_form table td input.data_in {
+	width:200px;
+}
+
+#data_form table td #agree {
+	width:270px;
+	margin:0 auto;
+}
+
+#data_form table td input.imgfade {
+	width:280px;
+	margin:0 auto;
+}
+
+#data_form table th {
+font-size: 12px;
+padding: 0 10px 0 0;
+}
+
+#data_form table td.agree_td {
+	text-align:center;
+}
+
+#data_form table td #check_agree_box {
+	width:100%;
+	text-align:center;
+}
+/* 7.------------------END-------------------- */
+}
+
+
+
+

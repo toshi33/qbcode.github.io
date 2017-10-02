@@ -1,0 +1,255 @@
+---
+layout: default
+---
+
+<div class="home">
+  <div class="flexslider">
+    
+    <div class="flex-viewport" style="overflow: hidden; position: relative;">
+      <ul class="slides" style="width: 1000%; transition-duration: 0s; transform: translate3d(-3806px, 0px, 0px);">
+        <li class="clone" aria-hidden="true" style="width: 1903px; float: left; display: block;">
+          <img src="/assets/img/top/slide03.jpg" alt="TECHNOLOGY" draggable="false">
+          <div class="flex-caption">
+            <span>
+              TECHNOLOGY
+            </span>
+            <br>
+            <p class="en">
+              The world’s first commercial quantum sequencing systems
+            </p>
+            <p class="jp" style="display: none;">
+              The world’s first commercial quantum sequencing systems
+            </p>
+            <p class="btn_more">
+              <a href="/features/tech">
+                <img src="/assets/img/top/btn_more.png" alt="more" class="imgfade" draggable="false">
+              </a>
+            </p>
+          </div>
+        </li>
+        <li style="width: 1903px; float: left; display: block;" class="">
+          <img src="/assets/img/top/slide01.jpg" alt="VISION" draggable="false">
+          <div class="flex-caption">
+            <span>
+              VISION
+            </span>
+            <p class="en">
+              Quantum Sequencing™: The genetic code, unlocked by physics
+            </p>
+            <p class="jp" style="display: none;">
+              Quantum Sequencing™: The genetic code, unlocked by physics
+            </p>
+            <p class="btn_more">
+              <a href="/features/vision">
+                <img src="/assets/img/top/btn_more.png" alt="more" class="imgfade" draggable="false">
+              </a>
+            </p>
+          </div>
+        </li>
+        <li class="flex-active-slide" style="width: 1903px; float: left; display: block;">
+          <img src="/assets/img/top/slide02.jpg" alt="INNOVATION" draggable="false">
+          <div class="flex-caption">
+            <span>
+              INNOVATION
+            </span>
+            <br>
+            <p class="en">
+              Nanogate DNA measurement: a truly disruptive innovation
+            </p>
+            <p class="jp" style="display: none;">
+              Nanogate DNA measurement: a truly disruptive innovation
+            </p>
+            <p class="btn_more">
+              <a href="/features/innovation">
+                <img src="/assets/img/top/btn_more.png" alt="more" class="imgfade" draggable="false">
+              </a>
+            </p>
+          </div>
+        </li>
+        <li class="" style="width: 1903px; float: left; display: block;">
+          <img src="/assets/img/top/slide03.jpg" alt="TECHNOLOGY" draggable="false">
+          <div class="flex-caption">
+            <span>
+              TECHNOLOGY
+            </span>
+            <br>
+            <p class="en">
+              The world’s first commercial quantum sequencing systems
+            </p>
+            <p class="jp" style="display: none;">
+              The world’s first commercial quantum sequencing systems
+            </p>
+            <p class="btn_more">
+              <a href="/features/tech">
+                <img src="/assets/img/top/btn_more.png" alt="more" class="imgfade" draggable="false">
+              </a>
+            </p>
+          </div>
+        </li>
+        <li style="width: 1903px; float: left; display: block;" class="clone" aria-hidden="true">
+          <img src="/assets/img/top/slide01.jpg" alt="VISION" draggable="false">
+          <div class="flex-caption">
+            <span>VISION</span>
+            <p class="en">
+              Quantum Sequencing™: The genetic code, unlocked by physics
+            </p>
+            <p class="jp" style="display: none;">
+              Quantum Sequencing™: The genetic code, unlocked by physics
+            </p>
+            <p class="btn_more">
+              <a href="/features/vision">
+                <img src="/assets/img/top/btn_more.png" alt="more" class="imgfade" draggable="false">
+              </a>
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <ul class="flex-direction-nav">
+      <li>
+        <a class="flex-prev" href="#">
+          Previous
+        </a>
+      </li>
+      <li>
+        <a class="flex-next" href="#">
+          Next
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="top_contents">
+    <div class="inner">
+      <div class="clearfix">
+        <ul>
+          <li id="tc_01">
+            <a href="/features/vision" class="imgfade" style="opacity: 1;">
+              <img src="/assets/img/top/bg_vision.jpg" alt="VISION">
+              <div class="ex_cont">
+                <p class="title">
+                  VISION
+                </p>
+                <p class="en">
+                  Quantum Sequencing™: the key to a goldmine of genetic data
+                </p>
+                <p class="jp" style="display: none;">
+                  Quantum Sequencing™: the key to a goldmine of genetic data
+                </p>
+              </div>
+            </a>
+          </li>
+          <li id="tc_02">
+            <div class="nl">
+              <p class="nl_title">
+                NEWS
+              </p>
+              <ul>
+                {% for post in site.posts limit:1 %}
+                  <li>
+                    <p class="date">
+                      {{ post.date | date: "%b %-d, %Y" }}
+                    </p>
+                    <p class="news_title2 en">
+                      <a href={{ post.url }}>
+                        {{ post.title }}
+                      </a>
+                    </p>
+                    <p class="news_title2 jp" style="display: none;">
+                      <a href={{ post.url }}>
+                        {{ post.title-jp }}
+                      </a>
+                    </p>
+                    <p class="top_article en">
+                      <a href={{ post.url }}>
+                        {{ post.excerpt }}
+                      </a>
+                    </p>
+                    <p class="top_article jp" style="display: none;">
+                      <a href={{ post.url }}>
+                        {{ post.excerpt-jp }}
+                      </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </li>
+          <li id="tc_03">
+            <a href="/features/innovation" class="imgfade">
+              <img src="/assets/img/top/bg_innovation.jpg" alt="INNOVATION">
+              <div class="ex_cont">
+                <p class="title">
+                  INNOVATION
+                </p>
+                <p class="en">
+                  Nanogate DNA measurement: a truly disruptive innovation
+                </p>
+                <p class="jp" style="display: none;">
+                  Nanogate DNA measurement: a truly disruptive innovation
+                </p>
+              </div>
+            </a>
+          </li>
+          <li id="tc_04">
+            <a href="/features/tech" class="imgfade">
+              <img src="/assets/img/top/bg_technology.jpg" alt="TECHNOLOGY">
+              <div class="ex_cont">
+                <p class="title">
+                  TECHNOLOGY
+                </p>
+                <p class="en">
+                  The world’s first commercial quantum sequencing systems
+                </p>
+                <p class="jp" style="display: none;">
+                  The world’s first commercial quantum sequencing systems
+                </p>
+              </div>
+            </a>
+          </li>
+          <li id="tc_05">
+            <a href="/about/info" class="imgfade">
+              <img src="/assets/img/top/qb.png" alt="Quantum Biosystems">
+            </a>
+          </li>
+          <li id="tc_06">
+            <a href="/get_involved/" class="imgfade" style="opacity: 1;">
+              GET<br>INVOLVED
+            </a>
+          </li>
+          <li id="tc_07">
+            <a href="/about/join" class="imgfade">
+              JOIN US
+            </a>
+          </li>
+          <li id="tc_08">
+            <a href="/about/info" class="imgfade">
+              ABOUT US
+            </a>
+          </li>
+          <li id="tc_09">
+            <a href="/about/contact" class="imgfade" style="opacity: 1;">
+              CONTACT
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--
+  {{ content }}
+  <h1 class="page-heading">Posts</h1>
+  
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h2>
+        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a>
+</p>
+-->
+</div>

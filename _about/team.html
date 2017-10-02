@@ -1,0 +1,800 @@
+---
+layout: about_page
+title: Our Team
+permalink: /about/team
+---
+<h3>Our Team</h3>
+<div class="team_cont">
+	<h4>
+	Management
+	</h4>
+	{% assign members = site.data.team.executives.members %}
+	{% assign rows = members.size | divided_by: 2.0 | ceil %}
+	{% for i in (1..rows) %}
+		{% assign offset = forloop.index0 | times: 2 %}
+		<div class="clearfix">
+
+			{% for member in members limit:1 offset:offset %}
+			<div class="left">
+				<div class="photo"><img src={{ member.image }} alt="{{ member.name-en }}"></div>
+				<div class="name">
+					<p class="en">{{ member.name-en }}</p>
+					<p class="jp" style="display: none;">{{ member.name-jp }}</p>
+				</div>
+				
+				<div class="post">
+					<p class="en">{{ member.title-en | escape }}</p>
+					<p class="jp" style="display: none;">{{ member.title-jp | escape }}</p>
+				</div>
+
+				<div class="prof">
+					<p class="en">
+						{{ member.about-en }}
+					</p>
+					<p class="jp" style="display: none;">
+						{{ member.about-jp }}
+					</p>
+				</div>
+				
+			</div>
+			{% endfor %}
+
+			{% capture rightOffset %}
+				{{ offset | plus: 1 }}
+			{% endcapture %}
+			{% for member in members limit:1 offset:rightOffset %}
+			<div class="right">
+				<div class="photo"><img src={{ member.image }} alt="{{ member.name-en }}"></div>
+				<div class="name">
+					<p class="en">{{ member.name-en }}</p>
+					<p class="jp" style="display: none;">{{ member.name-jp }}</p>
+				</div>
+				
+				<div class="post">
+					<p class="en">{{ member.title-en | escape }}</p>
+					<p class="jp" style="display: none;">{{ member.title-jp | escape }}</p>
+				</div>
+				
+				<div class="prof">
+					<p class="en">
+						{{ member.about-en }}
+					</p>
+					<p class="jp" style="display: none;">
+						{{ member.about-jp }}
+					</p>
+				</div>
+				
+			</div>
+			{% endfor %}
+
+		</div>
+	{% endfor %}
+
+	<h4 class="maT70">
+	R&amp;D
+	</h4>
+	{% assign members = site.data.team.rnd.members %}
+	{% assign rows = members.size | divided_by: 2.0 | ceil %}
+	{% for i in (1..rows) %}
+		{% assign offset = forloop.index0 | times: 2 %}
+		<div class="clearfix">
+
+			{% for member in members limit:1 offset:offset %}
+			<div class="left">
+				<div class="photo"><img src={{ member.image }} alt="{{ member.name-en }}"></div>
+				<div class="name">
+					<p class="en">{{ member.name-en }}</p>
+					<p class="jp" style="display: none;">{{ member.name-jp }}</p>
+				</div>
+				
+				<div class="post">
+					<p class="en">{{ member.title-en | escape }}</p>
+					<p class="jp" style="display: none;">{{ member.title-jp | escape }}</p>
+				</div>
+				
+				<div class="prof">
+					<p class="en">
+						{{ member.about-en }}
+					</p>
+					<p class="jp" style="display: none;">
+						{{ member.about-jp }}
+					</p>
+				</div>
+				
+			</div>
+			{% endfor %}
+
+			{% capture rightOffset %}
+				{{ offset | plus: 1 }}
+			{% endcapture %}
+			{% for member in members limit:1 offset:rightOffset %}
+			<div class="right">
+				<div class="photo"><img src={{ member.image }} alt="{{ member.name-en }}"></div>
+				<div class="name">
+					<p class="en">{{ member.name-en }}</p>
+					<p class="jp" style="display: none;">{{ member.name-jp }}</p>
+				</div>
+				
+				<div class="post">
+					<p class="en">{{ member.title-en | escape }}</p>
+					<p class="jp" style="display: none;">{{ member.title-jp | escape }}</p>
+				</div>
+				
+				<div class="prof">
+					<p class="en">
+						{{ member.about-en }}
+					</p>
+					<p class="jp" style="display: none;">
+						{{ member.about-jp }}
+					</p>
+				</div>
+				
+			</div>
+			{% endfor %}
+
+		</div>
+	{% endfor %}
+
+	<h4 class="maT70">
+	Business team
+	</h4>
+	{% assign members = site.data.team.business.members %}
+	{% assign rows = members.size | divided_by: 2.0 | ceil %}
+	{% for i in (1..rows) %}
+		{% assign offset = forloop.index0 | times: 2 %}
+		<div class="clearfix">
+
+			{% for member in members limit:1 offset:offset %}
+			<div class="left">
+				<div class="photo"><img src={{ member.image }} alt="{{ member.name-en }}"></div>
+				<div class="name">
+					<p class="en">{{ member.name-en }}</p>
+					<p class="jp" style="display: none;">{{ member.name-jp }}</p>
+				</div>
+				
+				<div class="post">
+					<p class="en">{{ member.title-en | escape }}</p>
+					<p class="jp" style="display: none;">{{ member.title-jp | escape }}</p>
+				</div>
+				
+				<div class="prof">
+					<p class="en">
+						{{ member.about-en }}
+					</p>
+					<p class="jp" style="display: none;">
+						{{ member.about-jp }}
+					</p>
+				</div>
+				
+			</div>
+			{% endfor %}
+
+			{% capture rightOffset %}
+				{{ offset | plus: 1 }}
+			{% endcapture %}
+			{% for member in members limit:1 offset:rightOffset %}
+			<div class="right">
+				<div class="photo"><img src={{ member.image }} alt="{{ member.name-en }}"></div>
+				<div class="name">
+					<p class="en">{{ member.name-en }}</p>
+					<p class="jp" style="display: none;">{{ member.name-jp }}</p>
+				</div>
+				
+				<div class="post">
+					<p class="en">{{ member.title-en | escape }}</p>
+					<p class="jp" style="display: none;">{{ member.title-jp | escape }}</p>
+				</div>
+				
+				<div class="prof">
+					<p class="en">
+						{{ member.about-en }}
+					</p>
+					<p class="jp" style="display: none;">
+						{{ member.about-jp }}
+					</p>
+				</div>
+				
+			</div>
+			{% endfor %}
+
+		</div>
+	{% endfor %}
+
+	<h4 class="maT70">
+	Scientific Advisors
+	</h4>
+	{% assign members = site.data.team.sciadvisors.members %}
+	{% assign rows = members.size | divided_by: 2.0 | ceil %}
+	{% for i in (1..rows) %}
+		{% assign offset = forloop.index0 | times: 2 %}
+		<div class="clearfix">
+
+			{% for member in members limit:1 offset:offset %}
+			<div class="left">
+				<div class="photo"><img src={{ member.image }} alt="{{ member.name-en }}"></div>
+				<div class="name">
+					<p class="en">{{ member.name-en }}</p>
+					<p class="jp" style="display: none;">{{ member.name-jp }}</p>
+				</div>
+				
+				<div class="prof">
+					<p class="en">
+						{{ member.about-en }}
+						<br>
+						<br>
+						<a href="{{ member.dept-link }}" target="_blank">{{ member.dept-desc-en }}</a>
+					</p>
+					<p class="jp" style="display: none;">
+						{{ member.about-jp }}
+						<br>
+						<br>
+						<a href="{{ member.dept-link }}" target="_blank">{{ member.dept-desc-jp }}</a>
+					</p>
+				</div>
+				
+			</div>
+			{% endfor %}
+
+			{% capture rightOffset %}
+				{{ offset | plus: 1 }}
+			{% endcapture %}
+			{% for member in members limit:1 offset:rightOffset %}
+			<div class="right">
+				<div class="photo"><img src={{ member.image }} alt="{{ member.name-en }}"></div>
+				<div class="name">
+					<p class="en">{{ member.name-en }}</p>
+					<p class="jp" style="display: none;">{{ member.name-jp }}</p>
+				</div>
+				
+				<div class="prof">
+					<p class="en">
+						{{ member.about-en }}
+						<br>
+						<br>
+						<a href="{{ member.dept-link }}" target="_blank">{{ member.dept-desc-en }}</a>
+					</p>
+					<p class="jp" style="display: none;">
+						{{ member.about-jp }}
+						<br>
+						<br>
+						<a href="{{ member.dept-link }}" target="_blank">{{ member.dept-desc-jp }}</a>
+					</p>
+				</div>
+				
+			</div>
+			{% endfor %}
+
+		</div>
+	{% endfor %}
+</div>
+
+{% comment %}
+<h3>Our Team</h3>
+<div class="team_cont">
+	<h4>Management</h4>
+	<div class="clearfix">
+		<div class="left">
+			<div class="photo"><img src="/assets/img/team/team_honkura.png" alt="Toshihiko Honkura, MBA"></div>
+			<div class="name">
+				<p class="en">Toshihiko Honkura, MBA<span> (co-founder)</span></p>
+				<p class="jp" style="display: none;">本蔵 俊彦 (共同創業者)</p>
+			</div>
+			
+			<div class="post">
+				<p class="en">President and CEO</p>
+				<p class="jp" style="display: none;">代表取締役社長 兼 最高経営責任者 (CEO)</p>
+			</div>
+			
+			<div class="prof">
+				<p class="en">
+					A co-founder of Quantum Biosystems Inc., Toshihiko represents the company as both president and CEO. After a genome research project at the University of Tokyo, he went on to gain ten years’ hands-on experience in business management and investment analysis as a manager at McKinsey &amp; Company and the Innovation Network Corporation of Japan (INCJ), a public-private Japanese fund. He has a master’s degree in Analytical Biochemistry from the University of Tokyo and an MBA from Columbia University. The scientific and business management acumen he brings to the team affords the company excellent and tested leadership.
+				</p>
+				<p class="jp" style="display: none;">
+					東京大学大学院情報理工学研究科特任助手としてヒトゲノム解析等の研究に従事。その後、国内証券会社にてエクイティアナリスト、マッキンゼー＆カンパニー マネージャ、産業革新機構ディレクターを務め、経営支援、投資事業分野において10年以上のビジネス経験を持つ。<br> 東京大学理学系大学院化学専攻修士、
+					<br> 米国コロンビア大学にてMBA取得。
+				</p>
+			</div>
+			
+		</div>
+		
+		<div class="right">
+			<div class="photo"><img src="/assets/img/team/team_pascoe.gif" alt="Christopher Pascoe, CPA"></div>
+			<div class="name">
+				<p class="en">Christopher Pascoe, CPA</p>
+				<p class="jp" style="display: none;">Christopher Pascoe, CPA</p>
+			</div>
+			
+			<div class="post">
+				<p class="en">Chief Financial Officer (CFO)</p>
+				<p class="jp" style="display: none;">最高財務責任者 (CFO)</p>
+			</div>
+			
+			<div class="prof">
+				<p class="en">Chris has more than thirty years of experience in the biotechnology and software industries. He has been the founding CFO for several companies in these areas, and also has experience as COO at two biotechnology companies, most notably at Perlegen Sciences, a genetic analysis and diagnostic testing company based in California. He is a CPA (PricewaterhouseCoopers) and a Chartered Accountant (Deloitte), and brings to Quantum Biosystems his extensive international experience in establishing and managing strong financial and operational practices.</p>
+				<p class="jp" style="display: none;">様々な企業において、ビジネスの創出・成長を財政面から牽引。 遺伝子の解析を行う Perlegen Sciences を始め、いくつものソフトウェアやバイオテクノロジーの 企業において、CFO や COO を歴任。Price Waterhouse and Coopers にて、CPA、Deloitte にて Chartered Accountant として働き、グローバルな環境において、IPO や 資金調達、財政計画、企業の 成長に豊富な経験を持つ。
+				</p>
+			</div>
+			
+		</div>
+		
+	</div>
+	
+	<div class="clearfix">
+		<div class="left">
+			<div class="photo"><img src="/assets/img/team/team_nakatsuka.png" alt="Takuma Nakatsuka"></div>
+			<div class="name">
+				<p class="en">Takuma Nakatsuka</p>
+				<p class="jp" style="display: none;">中塚琢磨</p>
+			</div>
+			
+			<div class="post">
+				<p class="en">CFO(Japan) and director of business administration</p>
+				<p class="jp" style="display: none;">CFO(Japan) 兼 管理部長</p>
+			</div>
+			
+			<div class="prof">
+				<p class="en">Takuma has extensive management experience in pharma/ biotechnology industries, including as CFO of NanoCarrier (DDS/nanotechnology), AnGes-MG (gene therapy) and Nihon-Schering, as well as CEO of GenoMedia (gene therapy). He also has over 15 years of management experience in manufacturing and service industries such as Hosokawa Micron (nanotechnology), Veolia-Water Japan and Nishihara Environment Technology (engineering). His career started in public service right after graduation from the University of Tokyo (law). His graduate studies were in public policy and economics at the University of Michigan before he was awarded an MBA (finance and strategic management) from Wharton School, the University of Pennsylvania.</p>
+				<p class="jp" style="display: none;">ナノキャリア（株）、アンジェスＭＧ（株）、（株）日本シェーリングでＣＦＯや常務取締役を、また、ジェノミデイア（株）で代表取締役社長を勤めるなど、医薬・バイオ分野で幅広い経営の経験を積んできている。これ以外にもホソカワミクロン（株）、（株）ヴェオリアウオーター・ジャパン、西原環境テクノジー（株）などで企業経営に携わっており、製造業及びサービス業を通して15年を超える企業経営の経験を有している。 東京大学法学部卒（国家公務員）。米国ミシガン大学修士（公共政策、経済学）、ペンシルバニア大学ウオートンスクール経営学修士（企業戦略及び財務）。
+				</p>
+			</div>
+			
+		</div>
+		
+		<div class="right">
+			<div class="photo"><img src="/assets/img/team/team_yoshikuni.png" alt="Naonori Kurokawa, PhD"></div>
+			<div class="name">
+				<p class="en">Yoshiaki Yoshikuni, Ph.D.</p>
+				<p class="jp" style="display: none;">吉國義明（農学博士）</p>
+			</div>
+			
+			<div class="post">
+				<p class="en">General Manager, Administration Department</p>
+				<p class="jp" style="display: none;">管理部長</p>
+			</div>
+			
+			<div class="prof">
+				<p class="en"> Yoshiaki has fifty years experience of R&amp;D in pharm/biotechnology and nutraceutical industries. He started as a researcher in Nippon Shinyaku Co., Ltd. after graduating from Kyoto University (Agricultural Chemistry) and held the position of general manager of Discovery Research Laboratories. His career in business development started when he was transferred to the head of the U.S. subsidiary. Five years of management experience in GMP manufacturing, FDA clinical trials, licensing and accounting helped further his career in biotechnology start-up companies including Oxigenix Co.,Ltd (Liposome-encapsulated Hemoglobin production, based in Kyoto), A-Cube, Inc.(Antibody design, based in California), and Pharma Eight Co.,Ltd.(Drug discovery, based in Kyoto). He has contributed to business development, capital-raising and other back-office operations in these companies as a board director and CFO. </p>
+				<p class="jp" style="display: none;">日本新薬株式会社創薬研究所長として、循環器・泌尿器領域の創薬研究に従事。初代NY駐在事務所長として赴任し、米国子会社NSファルマを設立して社長に就任。バイオベンチャー企業との創薬研究情報交流、米国での原薬製造、臨床試験管理、財務管理などの業務を５年間にわたり経験した。帰国後、スタートアップバイオベンチャー企業であるオキシジェニクス社京都研究所で人口酸素運搬体の試作に従事した。次いで、Burlingame,CAで日本人研究者が創業した抗体医薬をデザインするベンチャー企業A-Cube,Inc.の日本法人の総務・財務を担当し、資金調達を行った。さらに、アルツハイマー病治療剤を研究開発する（株）ファルマエイトの総務・財務担当取締役としてバックオフィス業務全般、資金管理を担当した。京都大学農学博士。</p>
+			</div>
+			
+		</div>
+		
+	</div>
+	
+	<div class="clearfix">
+		<div class="left">
+			<div class="photo"><img src="/assets/img/team/team_kurokawa.png" alt="Naonori Kurokawa, PhD"></div>
+			<div class="name">
+				<p class="en">Naonori Kurokawa, PhD/MBA</p>
+				<p class="jp" style="display: none;">黒川 尚徳</p>
+			</div>
+			
+			<div class="post">
+				<p class="en">External board director</p>
+				<p class="jp" style="display: none;">社外取締役</p>
+			</div>
+			
+			<div class="prof">
+				<p class="en"> Naonori is a partner at The University of Tokyo Edge Capital (UTEC) focusing on seed and early stage physical science and life science investments. He currently serves on the boards of high-tech startups including Microwave Chemical Co., Ltd. and ROCA K.K. His passion is to support and cooperate with academics and entrepreneurs who have industry-changing ideas. He earned his PhD in Applied Physics from Osaka University followed by an MBA from the University of Chicago Booth School of Business. </p>
+				<p class="jp" style="display: none;">株式会社東京大学エッジキャピタル(UTEC)のパートナー。大阪大学発のマイクロ波化学（株）、京都大学発のROCA（株）の取締役も務め、大学発ベンチャー企業の成長をサポートしている。大阪大学大学院工学研究科応用物理学専攻修了、博士(工学)、シカゴ大学ビジネススクールにてMBA取得。 </p>
+			</div>
+			
+		</div>
+		
+		<div class="right">
+			<div class="photo"><img src="/assets/img/team/team_hashizume.png" alt="Katsuya Hashizume"></div>
+			<div class="name">
+				<p class="en">Katsuya Hashizume, MS</p>
+				<p class="jp" style="display: none;">橋爪 克弥</p>
+			</div>
+			
+			<div class="post">
+				<p class="en">External board director</p>
+				<p class="jp" style="display: none;">社外取締役</p>
+			</div>
+			
+			<div class="prof">
+				<p class="en"> Katsuya Hashizume is a Senior Associate of the Academic-Corporate Liaison Investment Group at JAFCO CO., Ltd., the largest venture capital firm in Japan. He focuses on seed/early stage high-tech startups originated from universities or research institutes. He earned a master’s degree in Media and Governance (Research Field: Cyber Informatics) from Keio University. </p>
+				<p class="jp" style="display: none;"> ジャフコ投資部産学連携投資グループシニアアソシエイト。<br> 2010年にジャフコ入社後、主に医療機器分野などの大学発ベンチャーや技術系スタートアップへの投資活動に従事。
+				<br> 慶應義塾大学大学院政策・メディア研究科（サイバーインフォマティクス）修了、修士（政策・メディア）。 </p>
+			</div>
+			
+		</div>
+		
+	</div>
+	
+	<div class="clearfix">
+		<div class="left">
+			<div class="photo"><img src="/assets/img/team/team_sawabe.png" alt="Takehiko Sawabe"></div>
+			<div class="name">
+				<p class="en">Takehiko Sawabe, MS/MBA</p>
+				<p class="jp" style="display: none;">澤邉岳彦 MS/MBA</p>
+			</div>
+			
+			<div class="post">
+				<p class="en">External board director</p>
+				<p class="jp" style="display: none;">社外取締役</p>
+			</div>
+			
+			<div class="prof">
+				<p class="en"> Takehiko Sawabe is a vice president of Healthcare Team of Innovation Network Corporation of Japan (INCJ).  He has extensive experience in pharmaceutical and biotechnology industries.   He concurrently serves on the boards of several life science startups including Anaeropharma Science Inc., Stella Pharma Corporation., Scohia Pharma Inc., and, Megakaryon Corporation.  He received a master’s degree in Pharmaceutical Science from the University of Tokyo and an MBA from Graduate School of Management, GLOBIS University. </p>
+				<p class="jp" style="display: none;">株式会社産業革新機構（INCJ）　健康・医療チーム　ヴァイスプレジデント。医薬品、医療機器、再生医療及びそれらの支援事業の投資に従事している。<br>INCJ投資先である（株）アネロファーマ・サイエンス、ステラファーマ（株）、（株）スコヒアファーマの社外取締役、（株）メガカリオン の社外監査役を兼務している。<br>東京大学大学院薬学系研究科修士、グロービス経営大学院大学MBA。</p>
+			</div>
+			
+		</div>
+		
+		<div class="right">
+			<div class="photo"><img src="/assets/img/team/team_tajima.png" alt="Teruhisa Tajima, CPA"></div>
+			<div class="name">
+				<p class="en">Teruhisa Tajima, CPA</p>
+				<p class="jp" style="display: none;">田島 照久 (公認会計士)</p>
+			</div>
+			
+			<div class="post">
+				<p class="en">External Auditor</p>
+				<p class="jp" style="display: none;">社外監査役</p>
+			</div>
+			
+			<div class="prof">
+				<p class="en"> Teruhisa has twenty years’ experience of business consultancy and auditing. He has worked at Pricewaterhouse Coopers and the Shimizu Patent Office as a consultant for start-ups, supporting their growth and successful emergence via M&amp;A or IPOs. He is also an external auditor of The Longreach Group and CYBIRD Holdings Co., Ltd. In 2010, he established the Tajima Accounting Office. He has supported many biotechnology start-ups. </p>
+				<p class="jp" style="display: none;"> 中央監査法人、清水国際特許事務所等にて、バイオベンチャーに対する財務・会計に関するコンサルティング、支援業務に従事。<br> 現在は、田島公認会計士事務所を設立し、バイオベンチャー企業を中心とした税務・コンサルティング業務に従事。ロングリーチグループおよび株式会社サイバードホールディングスの社外監査役。
+				<br> 神戸大学経営学部卒業。 </p>
+			</div>
+			
+			
+		</div>
+	</div>
+	
+	<h4 class="maT70">R&amp;D team</h4>
+	<div class="clearfix">
+		<div class="left">
+			<div class="photo"><img src="/assets/img/team/team_nordman.gif" alt="Eric Nordman"></div>
+			<div class="name">
+				<p class="en">Eric Nordman</p>
+				<p class="jp" style="display: none;">Eric Nordman</p>
+			</div>
+			<div class="prof">
+				<p class="en">Eric worked twenty-eight years developing complex systems for genetic analysis at Applied Biosystems. Eric served as lead systems engineer for several generations of DNA sequencing instrumentation. He holds a number of patents in microfluidics, optics and capillary electrophoresis. In 2008 Eric was awarded the Distinguished Inventor Award from Applied Biosystems. Eric received his BS and MS from University of California, Berkeley.</p>
+				<p class="jp" style="display: none;">アプライドバイオシステムズにおいて、28年間にわたり複雑な遺伝分析のシステム開発に従事。数世代にわたるDNA配列計測の主任システム・エンジニアを務めた。また、マイクロ流体工学、光学およびキャピラリー電気泳動分野において、数多くの特許を取得している。2008年には、アプライドバイオシステムズよりDistinguished Inventor Awardを受賞。カリフォルニア大学バークレー校より学士号および修士号を取得。</p>
+			</div>
+			
+		</div>
+		
+		<div class="right">
+			<div class="photo"><img src="/assets/img/team/team_kawasaki.png" alt="Hisao Kawasaki　Director of R&amp;D"></div>
+			<div class="name">
+				<p class="en">Hisao Kawasaki, PhD</p>
+				<p class="jp" style="display: none;">河﨑 尚夫 (工学博士)</p>
+			</div>
+			
+			<div class="post">
+				<p class="en">Director of R&amp;D</p>
+				<p class="jp" style="display: none;">研究開発部長</p>
+			</div>
+			
+			<div class="prof">
+				<p class="en">
+					Having spent the last two decades working for Motorola in Austin, Texas as a Fellow of the Technical Staff and Manager of the Intrinsic Reliability Department, Hisao brings extensive experience in semiconductor process development and intrinsic reliability to the team. In addition to previous experience as Process Development Manager for Texas Instruments in Japan and as a Member of Technical Staff in the US, where he was engaged in multi-level metallization and silicide process development, he also has General Manager experience in the Process Development Department of a Mitsubishi Heavy Industries spin-off company. He has authored or co-authored over 90 journal and conference papers, and has 14 U.S. patents to his name. His doctorate in electronic engineering was awarded by Tohoku University.
+				</p>
+				<p class="jp" style="display: none;">
+					半導体プロセス開発、多層金属配線信頼性部門において豊富な経験を持つ。米国モトローラ社に約20年間勤務、半導体研究所のシニアエンジニア、信頼性部門部長を務めた。日本テキサス・インスツルメンツ（日米）ではプロセス開発課長として多層配線技術、シリサイド技術の開発に従事、またプロセス開発部長として三菱重工社外ベンチャー企業のスタートアップにも従事。90件以上の学術論文・学会論文を著書、分担執筆。米国特許14件保持。東北大学大学院工学研究科電子工学専攻博士課程修了、工学博士。
+				</p>
+			</div>
+			
+		</div>
+		
+	</div>
+	
+	<div class="clearfix">
+		<div class="left">
+			<div class="photo"><img src="/assets/img/team/team_oldham.gif" alt="Mark Oldham"></div>
+			<div class="name">
+				<p class="en">Mark Oldham</p>
+				<p class="jp" style="display: none;">Mark Oldham</p>
+			</div>
+			<div class="prof">
+				<p class="en">Mark has more than 25 years experience in biotech instrument R&amp;D with Applied Biosystems and several other Next Gen sequencing companies. As a systems engineer he specified, developed, and integrated biochemistry, electronics, mechanics, optics, firmware, and software for numerous projects involving Next Gen DNA sequencing, synchronous and asynchronous single molecule sequencing, nanopore and nano-channel detection, and sample preparation. Prior to working in Biotechnology he spent 10 years working in the semiconductor fabrication field. Mark has over 300 patent filings. In addition, he has expertise in the Next Gen IP landscape, drafting patents, and interacting with the U.S. Patent Office. Mark has degrees in electrical engineering and mathematics from San Jose State University in California.</p>
+				<p class="jp" style="display: none;">アプライドバイオシステムズ及びその他数社の次世代シークエンシング技術開発企業で、バイオテクノロジー関連機器の研究開発は25年以上に及ぶ。 システム工学エンジニアとして、次世代DNAシークエンシング、同期及び非同期単分子シークエンシング、ナノポア及びナノチャンネルによるDNA検出、そして試料調製などに関する数多くのプロジェクトにおいて、生化学、電子工学、機械工学、光学、ファームウェア、ソフトウェアの仕様決定、開発、統合を行う。 バイオテクノロジー分野に従事する前には、半導体製造の分野で10年間の経験を有する。発明者としての特許出願は３００件を超え、次世代IPランドスケープ、特許出願、米国特許商標庁とのやりとりに精通。カリフォルニア州のサンノゼ州立大学で電気工学及び数学の学位を取得。</p>
+			</div>
+			
+		</div>
+		
+		<div class="right">
+			<div class="photo"><img src="/assets/img/team/team_woudenberg.png" alt="Timothy M. Woudenberg, PhD"></div>
+			<div class="name">
+				<p class="en">Timothy M. Woudenberg, PhD</p>
+				<p class="jp" style="display: none;">Timothy M. Woudenberg, PhD</p>
+			</div>
+			
+			<div class="prof">
+				<p class="en">
+					Formally educated in Physical Chemistry, Tim has a 25+ year history in scientific instrument industry, working for large and small companies, driving the development of new technology. Highlights include proof of concept of real time qPCR, and approximately 30 U.S. patents. Typically you will find Tim at the laboratory bench where he confirms the observation of Louis Pasteur: “Luck favors the prepared mind”.
+				</p>
+				<p class="jp" style="display: none;">
+					物理化学の教育を受け、科学機器業界での25 年以上の経験を持つ。大企業及び中小企業で新しい技術の開発に従事。業績としてはPOC（Proof of Concept）レベルでのリアルタイムPCRの開発や約30にのぼる米国特許の取得がある。
+				</p>
+			</div>
+			
+		</div>
+		
+	</div>
+	
+	<div class="clearfix">
+		<div class="left">
+			<div class="photo"><img src="/assets/img/team/team_teutenberg.png" alt="Jonathan Teutenberg, Ph.D"></div>
+			<div class="name">
+				<p class="en">Jonathan Teutenberg, PhD</p>
+				<p class="jp" style="display: none;">Jonathan Teutenberg, PhD</p>
+			</div>
+			
+			<div class="prof">
+				<p class="en">
+					Jonathan holds a doctorate in Computer Science from the University of Auckland. His research has covered speech processing, machine learning and AI planning. Prior to joining Quantum Biosystems, Jonathan worked for two years as a Senior Computational Scientist with Oxford Nanopore in the areas of algorithm development and data analysis.
+				</p>
+				<p class="jp" style="display: none;">
+					オークランド大学コンピューターサイエンス博士課程修了。<br> 研究対象は、音声処理、機械学習及び人工知能。Oxford Nanopore Technologyにて研究者としてNGS(Next-gen sequencing)<br> データのアルゴリズム開発に2年間携わったのち、
+					<br> クオンタムバイオシステムズ入社。
+				</p>
+			</div>
+			
+		</div>
+		
+		<div class="right">
+			<div class="photo"><img src="/assets/img/team/team_dimitrov.png" alt="Val Dimitrov, PhD"></div>
+			<div class="name">
+				<p class="en">Val Dimitrov, PhD</p>
+				<p class="jp" style="display: none;">Val Dimitrov, PhD</p>
+			</div>
+			<div class="prof">
+				<p class="en">Val holds a doctorate in Electrical and Computer Engineering (ECE) from University of Illinois at Urbana-Champaign (UIUC). He has over ten years of experience developing biosensors and systems for single molecule detection and DNA mapping and sequencing. Val possesses a broad range of expertise: solid state device physics and high speed electronic circuits, micro- and nanofabrication, microfluidics, materials analysis, signal processing, data analysis and statistical modeling. Prior to joining Quantum Biosystems, Val lead a team that successfully developed a detector that was used for mapping medium size genomes.
+				</p>
+				<p class="jp" style="display: none;">
+					米国イリノイ大学にて電気・コンピューター工学の博士号を取得。1分子検出のためのバイオセンサーとシステムの開発、DNA解析とシークエンシングにおいて10年以上の経験を持つ。半導体装置物理学と高速電子回路、マイクロ-ナノファブリケーション、マイクロ流路、材料分析、信号処理、データ解析、統計的モデリングなど、幅広い専門技術を有する。クオンタムバイオシステムズ入社前には、中型サイズゲノムの解析に用いられるセンサーの開発チームを主導した経験を有する。
+				</p>
+			</div>
+			
+		</div>
+		
+	</div>
+	
+	<div class="clearfix">
+		<div class="left">
+			<div class="photo"><img src="/assets/img/team/team_goyal.png" alt="Gaurav Goyal, PhD"></div>
+			<div class="name">
+				<p class="en">Gaurav Goyal, PhD</p>
+				<p class="jp" style="display: none;">Gaurav Goyal, PhD</p>
+			</div>
+			<div class="prof">
+				<p class="en">
+					Gaurav obtained his Ph.D. in Biomedical Engineering from Drexel University, Philadelphia and a master’s in Bioengineering from KAIST, South Korea. During the grad school, he obtained significant experience in micro/nano fabrication and use of solid-state nanopores for single-molecule DNA detection.
+				</p>
+				<p class="jp" style="display: none;">
+					韓国KAISTにて生体工学修士、米国ドレクセル大学（フィラデルフィア）にて生体医用工学博士号を取得。博士課程時には、マイクロ・ナノファブリケーション、半導体ナノポアの1分子DNA検出への応用において深い知見を有する。
+				</p>
+			</div>
+			
+		</div>
+		
+		<div class="right">
+			<div class="photo"><img src="/assets/img/team/team_morris.gif" alt="David Morris"></div>
+			<div class="name">
+				<p class="en">David Morris-Oliveros</p>
+				<p class="jp" style="display: none;">David Morris-Oliveros</p>
+			</div>
+			<div class="prof">
+				<p class="en">David has developed software, electronics and mechanical systems. He has a diverse background having earned his Bachelors in Spain and his Master of Science in Computing in Australia. He has mainly worked in the area of High Performance Computing (HPC) ranging from video games, 3D animation to live action movies developing and managing both software and hardware systems.</p>
+				<p class="jp" style="display: none;">システムエンジニア。 スペインにて学士、オーストラリアにてコンピュータサイエンス修士課程を修了。 主にゲーム、3D アニメーション、映画などの高性能計算の分野において、ソフトウェアとハードウェア両方のソリューションを開発・運用を経験する。
+				</p>
+			</div>
+			
+		</div>
+		
+	</div>
+	
+	<div class="clearfix">
+		<div class="left">
+			<div class="photo"><img src="/assets/img/team/team_makino.png" alt="Koichi Makino"></div>
+			<div class="name">
+				<p class="en">Koichi Makino</p>
+				<p class="jp" style="display: none;">牧野孝一</p>
+			</div>
+			<div class="prof">
+				<p class="en">Koichi’s experience includes measuring technic for extreme region of electrical quantity as well as failure analysis for precision electrical measuring system at Keithley Instruments for ten years. In addition, Koichi contributed to building the local service department of Keithley and improving its performance as service manager. Prior to Keithley, he gained his experience for quality assurance and circuit design for jigs at Pioneer Corporation. He received his BSEE degree from University of Minnesota, Minneapolis.</p>
+				<p class="jp" style="display: none;">ケースレーインスツルメンツ社において10年間にわたり極限領域の電子計測技術と計測機器の故障解析に従事し、微小電流領域の技術経験を持つ。また同社にてサービスマネージャーとして部門構築とパフォーマンスの改善を経験。それ以前、パイオニア株式会社では品質保証と治工具回路設計の経験を積む。ミネソタ大学ミネアポリス校より電気工学の学位を取得。</p>
+			</div>
+			
+		</div>
+		
+		<div class="right">
+			
+		</div>
+		
+	</div>
+	
+	
+	<h4 class="maT70">Business team</h4>
+	<div class="clearfix">
+		<div class="left">
+			<div class="photo"><img src="/assets/img/team/team_akatsu.png" alt="Takeshi Akatsu, Ph.D"></div>
+			<div class="name">
+				<p class="en">Takeshi Akatsu, PhD, Patent Attorney</p>
+				<p class="jp" style="display: none;">赤津 豪 博士（工学）、付記弁理士</p>
+			</div>
+			
+			<div class="prof">
+				<p class="en"> Takashi has some ten years’ experience in materials science as a researcher at the Max Planck Institutes of Metal Research and Microstructure Physics (Germany) and as an R&amp;D project leader for advanced substrate development at SOITEC (France). In Japan, he worked in IP law firms. He therefore brings a profound knowledge of R&amp;D and IP to his role as director of IP and BD at Quantum Biosystems. He was awarded a doctorate in Precision Machinery Engineering by the University of Tokyo. </p>
+				<p class="jp" style="display: none;">知財・事業開発部長。専門分野は材料科学。マックスプランク研究所金属材料研究所、同微細構造物理研究所（ドイツ）を経て、SOITEC社（フランス）で、プロジェクトリーダーとして次世代半導体基板の研究開発に従事。半導体のR&amp;Dと知財の双方の深い知識でQB社の知財構築と事業開発に当たる。東大工学部精密機械工学科卒、同博士過程修了。英語、ドイツ語、フランス語に堪能。 </p>
+			</div>
+			
+		</div>
+		
+		<div class="right">
+			<div class="photo"><img src="/assets/img/team/team_takayanagi.png" alt="Masau Takayanagi, Patent Attorney"></div>
+			<div class="name">
+				<p class="en">Masau Takayanagi, Patent Attorney</p>
+				<p class="jp" style="display: none;">高柳 昌生 (弁理士)</p>
+			</div>
+			
+			<div class="prof">
+				<p class="en">
+					Masau has more than forty years’ experience in IP management. In 2012, he established Takayanagi IP Management after working as an executive officer and director of IP at Kyowa Kirin. He is also a representative of the Licensing Executives Society Japan and teaches classes focused on pharmaceutical IP at several universities in Japan. He was an executive board member and head of the IP Department at Mitsubishi Pharma Corporation and a vice chairman of the Japan Pharmaceutical Manufacturers Association (JPMA) Intellectual Committee.
+				</p>
+				<p class="jp" style="display: none;">
+					IPマネジメントに関して40年以上の経験を持つ。<br> 三菱ウェルファーマ、協和発酵キリン株執行役員・知的財産部長などを経て、高柳IPマネジメントを設立。日本製薬工業協会知的財産委員会・副委員長 、内閣府「ライフサイエンス分野における知的財産の保護・活用等に関する検討プロジェクトチーム」メンバー、日本ライセンス協会会長(LES International 日本代表)などを歴任した他、国立・私立大学などで製薬・知財関連の講座も担当している。
+				</p>
+			</div>
+			
+		</div>
+		
+	</div>
+	
+	<div class="clearfix">
+		<div class="left">
+			<div class="photo"><img src="/assets/img/team/team_usui.png" alt="Akira Usui"></div>
+			<div class="name">
+				<p class="en">Akira Usui</p>
+				<p class="jp" style="display: none;">臼井 玲</p>
+			</div>
+			
+			<div class="prof">
+				<p class="en">
+					Akira has more than twenty years’ experience of licensing, business development and alliance management in the pharmaceutical industry. He worked at Roche as a director of business development in the Pharmaceutical Division, mainly focused on the Asia-Pacific region, and established Roche Pharma’s Japan office. He was also representative director and general manager at Perlegen Sciences Japan and a vice president at its parent company in the US. Pergelen was established to identify patterns of genetic variation between individuals, information which was then used to improve patient care and discover the genetic foundations of diseases. In 2007, he founded Ray Life Sciences Inc., and he has worked as an external board director for a number of biotechnology venture companies.
+				</p>
+				<p class="jp" style="display: none;">
+					製薬業界におけるライセンシング、事業開発、業務提携に関しての20年以上の経験を持つ。田辺製薬、日本ロシュを経て、スイス・ロシュ本社医薬品部門ビジネスデベロップメントディレクター(日本・アジア担当)に就任。また、(遺伝子情報の識別によるパーソナルメディシン開発を目的とした) パーレジェンサイエンス・ジャパン代表取締役、米国本社副社長。
+					<br> 現在はレイライフサイエンスを設立し、バイオベンチャーの社外取締役を歴任。
+				</p>
+			</div>
+			
+		</div>
+		
+		<div class="right">
+			<div class="photo"><img src="/assets/img/team/team_li.png" alt="Li Jin Sajo"></div>
+			<div class="name">
+				<p class="en">Li Jin Sajo</p>
+				<p class="jp" style="display: none;">Li Jin Sajo</p>
+			</div>
+			<div class="prof">
+				<p class="en">
+					Li conducted research on DNA methylation in the Department of Pharmaceutical Science at the University of Tokyo’s Graduate School. Quantum Biosystems utilizes his technical knowledge in this field. He has also worked with clients in the pharmaceutical industry as a consultant at McKinsey &amp; Company. He is currently pursuing an MBA at Stanford’s Graduate School of Business.
+				</p>
+				<p class="jp" style="display: none;">
+					東京大学薬学部修士課程修了。<br> 専門はDNAのメチル化分析。
+					<br> McKinsey &amp; Companyにて、コンサルタントとして、グローバル製薬企業のプロジェクトに従事。2013年9月よりスタンフォード大学ビジネススクールにてMBA取得のため留学中。
+				</p>
+			</div>
+			
+		</div>
+		
+	</div>
+	
+	
+	<h4 class="maT70">Scientific Advisors</h4>
+	<div class="clearfix">
+		<div class="left">
+			<div class="photo"><img src="/assets/img/team/team_kawai.png" alt="Tomoji Kawai, Ph.D."></div>
+			<div class="name">
+				<p class="en">Tomoji Kawai, PhD</p>
+				<p class="jp" style="display: none;">川合 知二 理学博士</p>
+			</div>
+			
+			<div class="prof">
+				<p class="en">
+					Tomoji is our senior scientific advisor. A specially appointed professor at the Institute of Scientific and Industrial Research, Osaka University (ISIR), Tomoji’s specialty is single-molecule analysis technology. He is the lead researcher on the Kawai Project, formally known as Research and Development of Innovative Nanobiodevices based on Single-molecule Analysis, which receives governmental support from the FIRST program. The Japanese government has invested thirty million dollars in the FIRST Kawai Project since 2009. The single-molecule analysis technology of this project is the core technology of Quantum Biosystems. Tomoji was awarded his doctorate in Chemistry by the Department of Science at the Graduate School of the University of Tokyo.<br>
+					<br>
+					<a href="http://www.dma.jim.osaka-u.ac.jp/view?l=ja&amp;u=4960#item_szk_2" target="_blank">The Institute of Scientific and Industrial Research, Osaka University</a>
+				</p>
+				<p class="jp" style="display: none;">
+					現在大阪大学産業科学研究所特任教授。<br> 専門は1分子解析技術。
+					<br> FIRST「1分子解析技術を基盤とした革新ナノバイオデバイスの開発研究」(略称：川合プロジェクト)の中心研究者。
+					<br> このプロジェクトとは2009-2014にわたり総額30億円を投下した内閣府主導の研究プロジェクトであり、ここで原理が実証された1分子解析技術が当社の技術の基礎となっている。
+					<br> 東京大学理学系研究科化学専攻博士課程修了。
+					<br>
+					<br>
+					<a href="http://www.dma.jim.osaka-u.ac.jp/view?l=ja&amp;u=4960#item_szk_2" target="_blank">大阪大学 産業科学研究所</a>
+				</p>
+			</div>
+			
+		</div>
+		
+		<div class="right">
+			<div class="photo"><img src="/assets/img/team/team_baba.png" alt="Yoshinobu Baba, PhD"></div>
+			<div class="name">
+				<p class="en">Yoshinobu Baba, PhD</p>
+				<p class="jp" style="display: none;">馬場 嘉信 理学博士</p>
+			</div>
+			
+			<div class="prof">
+				<p class="en">
+					Yoshinobu is a professor at the Graduate School of Engineering at Nagoya University. He is one of the foremost experts on nanobiodevices, and is involved in multiple projects in Japan at the national level. He is also chairman of Nagoya University’s FIRST Research Center for Innovative Nanobiodevices and of its Synchrotron Radiation Research Center. He is co-creator of the FIRST-sponsored Kawai Project (Research and Development of Innovative Nanobiodevices based on Single-molecule Analysis), and, concurrently, executive committee chairman of Nanobio Expo. He was awarded his doctorate in Chemistry by the Faculty of Science at the Graduate School of Kyushu University.<br>
+					<br>
+					<a href="http://www.apchem.nagoya-u.ac.jp/III-2/baba-ken/" target="_blank">Baba Laboratory, Nagoya University</a>
+				</p>
+				<p class="jp" style="display: none;">
+					名古屋大学大学院 工学研究科 化学・生物工学専攻 馬場研究室<br> 名古屋大学革新ナノバイオデバイス研究センター長併任。
+					<br> 専門はナノバイオデバイス。
+					<br> FIRST川合プロジェクトの共同提案者。
+					<br> 国際ナノバイオEXPO 実行委員長を務めるなどナノ分野研究の第一人者。総合科学技術会議革新的技術推進アドバイザー他、各種国家プロジェクトの審査委員、評価委員を歴任。<br> 九州大学大学院理学研究科化学専攻博士課程修了。
+					<br>
+					<br>
+					<a href="http://www.apchem.nagoya-u.ac.jp/III-2/baba-ken/" target="_blank">名古屋大学大学院 工学研究科 化学・生物工学専攻 馬場研究室</a>
+				</p>
+			</div>
+			
+		</div>
+		
+	</div>
+	
+	<div class="clearfix">
+		<div class="left">
+			<div class="photo"><img src="/assets/img/team/team_massimiliano.png" alt="Prof Di Ventra, Professor of Physics at UCSD"></div>
+			<div class="name">
+				<p class="en">Massimiliano Di Ventra, PhD</p>
+				<p class="jp" style="display: none;">Massimiliano Di Ventra, PhD</p>
+			</div>
+			<div class="prof">
+				<p class="en">
+					Massimiliano is a professor at the University of California, San Diego. He is a world-renowned theorist in condensed matter physics. He was the first to propose and support the sequencing by tunneling concept, a core idea behind both the FIRST Project and Quantum Biosystems. His team at the University of California has theoretically shown the feasibility of this fast, inexpensive technique to sequence DNA as it passes through nanopores. He was awarded his doctorate by the Swiss Federal Institute of Technology in Lausanne (Ecole polytechnique federale de Lausanne).<br>
+					<br>
+					<a href="http://www-physics.ucsd.edu/fac_staff/fac_profile/faculty_description.php?person_id=517 " target="_blank">Department of Physics, UC SanDiego</a>
+				</p>
+				<p class="jp" style="display: none;">
+					カリフォルニア大学サンディエゴ校教授。<br> 固体物理学の著名な理論家。
+					<br> トンネル電流によるDNAシークエンシングの先駆的提唱者であり、
+					<br> ナノポアメソッドの第一人者。
+					<br> カリフォルニア大学の研究室では、ナノポアを使って高速かつ安価にDNA解析を行う技術の実用化の可能性を理論的に示した。
+					<br> ローザンヌスイス連邦工科大学(Ecole polytechnique federale de Lausanne)博士課程修了。<br>
+					<br>
+					<a href="http://www-physics.ucsd.edu/fac_staff/fac_profile/faculty_description.php?person_id=517" target="_blank">カリフォルニア大学 サンディエゴ校 物理学部</a>
+				</p>
+			</div>
+		</div>
+		
+		
+		<div class="right">
+			<div class="photo"><img src="/assets/img/team/team_venkataraman.png" alt="Latha Venkataraman, PhD"></div>
+			<div class="name">
+				<p class="en">Latha Venkataraman, PhD</p>
+				<p class="jp" style="display: none;">Latha Venkataraman, PhD</p>
+			</div>
+			
+			<div class="prof">
+				<p class="en">
+					Latha Venkataraman received her Bachelor’s degree in Physics from Massachusetts Institute of Technology in 1993 where she did her undergraduate thesis with Prof. Mildred Dresselhaus. She then moved to Harvard University and obtained her Ph. D. in 1999 working under the guidance of Prof. Charles Lieber. She worked as a research scientist at Vytran Corporation from 1999 to 2002. In 2003, she joined Columbia University as a research scientist. She started her independent career as an assistant professor in the Department of Applied Physics and Applied Mathematics at Columbia University in 2007.Prominent awards she has received include the National Science Foundation Career Award, Packard Fellowship for Science and Engineering, and the Alfred P. Sloan Fellowship in Chemistry.
+					<br>
+					<br>
+					<a href="http://www.venkataramangroup.org/about-latha.html" target="_blank">Latha Venkataraman, Department of Applied Physics and Department of Chemistry, Columbia University</a>
+				</p>
+				<p class="jp" style="display: none;">
+					マサチューセッツ工科大学で、物理学を専攻し、Mildred Dresselhaus教授に師事し、Ph.D を取得。Vytran Corporationで博士研究員、２００３年にコロンビア大学にて博士研究員、2007年に准教授を経て、現職となる。アメリカ国立科学財団Career Award, Packard Fellowship for Science and Engineering, the Alfred P. Sloan Fellowship in Chemistryを受賞。
+					<br>
+					<br>
+					<a href="http://www.venkataramangroup.org/about-latha.html" target="_blank">Latha Venkataraman,コロンビア大学 応用物理学・化学科</a>
+				</p>
+			</div>
+			
+		</div>
+		
+	</div>
+</div>
+{% endcomment %}

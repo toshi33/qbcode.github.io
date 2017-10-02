@@ -1,0 +1,49 @@
+#footer {
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+  color: #1b1b1b;
+  padding: 60px 0 27px 0;
+  .copy {
+    padding-bottom: 15px;
+  }
+  .dir_des {
+    color: #1a1a1a;
+    font-size: 11px;
+    padding-top: 20px;
+    a {
+      text-decoration: none;
+    }
+  }
+  ul {
+    margin: 0 auto;
+    width: 162px;
+    li {
+      float: left;
+      padding: 0 12px;
+      width: 30px;
+      a {
+        display: block;
+        height: 30px;
+        text-align: center;
+        width: 30px;
+      }
+      &#fm_02 a {
+        height: 25px;
+        padding-top: 5px;
+      }
+      &#fm_03 a {
+        height: 22px;
+        padding-top: 8px;
+      }
+      &#fm_01 img {
+        width: 12px;
+      }
+      &#fm_02 img {
+        width: 23px;
+      }
+      &#fm_03 img {
+        width: 22px;
+      }
+    }
+  }
+}

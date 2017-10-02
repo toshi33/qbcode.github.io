@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<div id="news_title" >
+  <img src="/assets/img/news/bg_title.jpg" alt="NEWS">
+  <h2 style="display: block;">NEWS</h2>
+</div>
+<div id="contents_box" class="clearfix">
+  <div class="inner">
+    <article itemscope itemtype="http://schema.org/BlogPosting">
+      <header>
+        <h3 id="nd_title" itemprop="name headline">
+        <span class="en">
+          {{ page.title | escape }}
+        </span>
+        <span class="jp" style="display: none;">
+          {{ page.title-jp | escape }}
+        </span>
+        </h3>
+      </header>
+      <div id="news_contents" class="inner">
+        <div class="date">
+          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          {{ page.date | date: date_format }}
+          </time>
+        </div>
+        {% if page.image != "" and page.image %}
+          <div class="photo">
+            <img src="{{ page.image | escape }}" alt="{{ page.image-alt | escape }}" />
+          </div>
+        {% endif %}
+        <div class="ex">
+          {{ content }}
+        </div>
+      </div>
+    </article>
+  </div>
+</div>

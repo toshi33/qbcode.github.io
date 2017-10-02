@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<script type="text/javascript" src="{{ "/assets/js/jquery/jquery.inview.min.js" | relative_url }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/jquery/jquery.scrollParallax.min.js" | relative_url }}"></script>
+<script type="text/javascript">
+$(function(){
+    $('#oa_bot_cont').scrollParallax({'speed': 0.4});
+});
+</script>
+
+<div id="ot_title">
+	<img src="{{ page.title-image | escape }}" alt="{{ page.title | escape }}">
+	<h2 id="vision" style="display: block;">
+	{{ page.title | escape }}<br>
+	<span class="en">
+		{{ page.byline-en | escape }}
+	</span>
+	<span class="jp" style="display: none;">
+		{{ page.byline-jp | escape }}
+	</span>
+	</h2>
+</div>
+{{ content }}

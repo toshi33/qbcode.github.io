@@ -1,0 +1,59 @@
+name: Scientific Advisors
+members:
+  - name-en: Tomoji Kawai, PhD
+    name-jp: 川合 知二 理学博士
+    image: /assets/img/team/team_kawai.png
+    dept-desc-en: The Institute of Scientific and Industrial Research, Osaka University
+    dept-desc-jp: 大阪大学 産業科学研究所
+    dept-link: http://www.dma.jim.osaka-u.ac.jp/view?l=ja&u=4960#item_szk_2
+    about-en: >
+              Tomoji is our senior scientific advisor. A specially appointed professor at the Institute of Scientific and Industrial Research, Osaka University (ISIR), Tomoji’s specialty is single-molecule analysis technology. He is the lead researcher on the Kawai Project, formally known as Research and Development of Innovative Nanobiodevices based on Single-molecule Analysis, which receives governmental support from the FIRST program. The Japanese government has invested thirty million dollars in the FIRST Kawai Project since 2009. The single-molecule analysis technology of this project is the core technology of Quantum Biosystems. Tomoji was awarded his doctorate in Chemistry by the Department of Science at the Graduate School of the University of Tokyo.
+
+    about-jp: >
+              現在大阪大学産業科学研究所特任教授。<br> 専門は1分子解析技術。
+              <br> FIRST「1分子解析技術を基盤とした革新ナノバイオデバイスの開発研究」(略称：川合プロジェクト)の中心研究者。
+              <br> このプロジェクトとは2009-2014にわたり総額30億円を投下した内閣府主導の研究プロジェクトであり、ここで原理が実証された1分子解析技術が当社の技術の基礎となっている。
+              <br> 東京大学理学系研究科化学専攻博士課程修了。
+
+  - name-en: Yoshinobu Baba, PhD
+    name-jp: 馬場 嘉信 理学博士
+    image: /assets/img/team/team_baba.png
+    dept-desc-en: Baba Laboratory, Nagoya University
+    dept-desc-jp: 名古屋大学大学院 工学研究科 化学・生物工学専攻 馬場研究室
+    dept-link: http://www.apchem.nagoya-u.ac.jp/III-2/baba-ken/
+    about-en: >
+              Yoshinobu is a professor at the Graduate School of Engineering at Nagoya University. He is one of the foremost experts on nanobiodevices, and is involved in multiple projects in Japan at the national level. He is also chairman of Nagoya University’s FIRST Research Center for Innovative Nanobiodevices and of its Synchrotron Radiation Research Center. He is co-creator of the FIRST-sponsored Kawai Project (Research and Development of Innovative Nanobiodevices based on Single-molecule Analysis), and, concurrently, executive committee chairman of Nanobio Expo. He was awarded his doctorate in Chemistry by the Faculty of Science at the Graduate School of Kyushu University.
+
+    about-jp: >
+              名古屋大学大学院 工学研究科 化学・生物工学専攻 馬場研究室<br> 名古屋大学革新ナノバイオデバイス研究センター長併任。
+              <br> 専門はナノバイオデバイス。
+              <br> FIRST川合プロジェクトの共同提案者。
+              <br> 国際ナノバイオEXPO 実行委員長を務めるなどナノ分野研究の第一人者。総合科学技術会議革新的技術推進アドバイザー他、各種国家プロジェクトの審査委員、評価委員を歴任。<br> 九州大学大学院理学研究科化学専攻博士課程修了。
+
+  - name-en: Massimiliano Di Ventra, PhD
+    name-jp: Massimiliano Di Ventra, PhD
+    image: /assets/img/team/team_massimiliano.png
+    dept-desc-en: Department of Physics, UC San Diego
+    dept-desc-jp: カリフォルニア大学 サンディエゴ校 物理学部
+    dept-link: http://www-physics.ucsd.edu/fac_staff/fac_profile/faculty_description.php?person_id=517
+    about-en: >
+              Massimiliano is a professor at the University of California, San Diego. He is a world-renowned theorist in condensed matter physics. He was the first to propose and support the sequencing by tunneling concept, a core idea behind both the FIRST Project and Quantum Biosystems. His team at the University of California has theoretically shown the feasibility of this fast, inexpensive technique to sequence DNA as it passes through nanopores. He was awarded his doctorate by the Swiss Federal Institute of Technology in Lausanne (Ecole polytechnique federale de Lausanne).
+
+    about-jp: >
+              カリフォルニア大学サンディエゴ校教授。<br> 固体物理学の著名な理論家。
+              <br> トンネル電流によるDNAシークエンシングの先駆的提唱者であり、
+              <br> ナノポアメソッドの第一人者。
+              <br> カリフォルニア大学の研究室では、ナノポアを使って高速かつ安価にDNA解析を行う技術の実用化の可能性を理論的に示した。
+              <br> ローザンヌスイス連邦工科大学(Ecole polytechnique federale de Lausanne)博士課程修了。
+
+  - name-en: Latha Venkataraman, PhD
+    name-jp: Latha Venkataraman, PhD
+    image: /assets/img/team/team_venkataraman.png
+    dept-desc-en: Latha Venkataraman, Department of Applied Physics and Department of Chemistry, Columbia University
+    dept-desc-jp: Latha Venkataraman,コロンビア大学 応用物理学・化学科
+    dept-link: http://www.venkataramangroup.org/about-latha.html
+    about-en: >
+              Latha Venkataraman received her Bachelor’s degree in Physics from Massachusetts Institute of Technology in 1993 where she did her undergraduate thesis with Prof. Mildred Dresselhaus. She then moved to Harvard University and obtained her Ph. D. in 1999 working under the guidance of Prof. Charles Lieber. She worked as a research scientist at Vytran Corporation from 1999 to 2002. In 2003, she joined Columbia University as a research scientist. She started her independent career as an assistant professor in the Department of Applied Physics and Applied Mathematics at Columbia University in 2007.Prominent awards she has received include the National Science Foundation Career Award, Packard Fellowship for Science and Engineering, and the Alfred P. Sloan Fellowship in Chemistry.
+
+    about-jp: >
+              マサチューセッツ工科大学で、物理学を専攻し、Mildred Dresselhaus教授に師事し、Ph.D を取得。Vytran Corporationで博士研究員、２００３年にコロンビア大学にて博士研究員、2007年に准教授を経て、現職となる。アメリカ国立科学財団Career Award, Packard Fellowship for Science and Engineering, the Alfred P. Sloan Fellowship in Chemistryを受賞。

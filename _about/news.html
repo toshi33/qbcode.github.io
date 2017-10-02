@@ -1,0 +1,55 @@
+---
+layout: default
+title: News
+permalink: /news
+---
+<div id="news_title">
+  <img src="/assets/img/news/bg_title.jpg" alt="NEWS">
+  <h2 style="display: block;">NEWS</h2>
+</div>
+<div id="contents_box">
+  <div class="inner">
+    <div id="news_contents">
+      <h3>NEWS</h3>
+      <ul>
+        {% for post in site.posts %}
+          <li>
+            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+            <span class="date">{{ post.date | date: date_format }}</span>
+            <div class="clearfix">
+              <div class="thm">
+                {% if post.image == "" or post.image == nil %}
+                <img src="/assets/img/news/noimage.jpg" />
+                {% else %}
+                <img src="{{ post.image }}" />
+                {% endif %}
+              </div>
+              <div class="title">
+                <div class="news_title2 en" style="display: block;">
+                  <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                </div>
+                <p class="en" style="display: block;">
+                  <a href="{{ post.url | relative_url }}">{{ post.excerpt | remove: '<p>' | remove: '</p>' | escape }}</a>
+                </p>
+                <div class="news_title2 jp" style="display: none;">
+                  <a href="{{ post.url | relative_url }}">{{ post.title-jp | escape }}</a>
+                </div>
+                <p class="jp" style="display: none;">
+                  <a href="{{ post.url | relative_url }}">{{ post.excerpt-jp | remove: '<p>' | remove: '</p>' | escape }}</a>
+                </p>
+              </div>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+      <p class="rss-subscribe">
+        subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a>
+      </p>
+    </div>
+  </div>
+  <style type="text/css">
+  .post-header {
+      display: none;
+    }
+  </style>
+</div>
