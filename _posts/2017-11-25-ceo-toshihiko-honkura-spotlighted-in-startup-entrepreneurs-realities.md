@@ -20,4 +20,4 @@ Click [here to see a preview of the book.](http://www.nikkeibook.com/book_detail
 
 {:.jp}
 注目の５人の起業家の一人として紹介されました。
-http://www.nikkeibook.com/book_detail/32167/
+[http://www.nikkeibook.com/book_detail/32167/](http://www.nikkeibook.com/book_detail/32167/)
