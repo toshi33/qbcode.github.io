@@ -14,11 +14,9 @@ categories: news
 ---
 
 {:.en}
- ## With DNA Sequencer, Osaka University startup challenges United States competition
- 
+## With DNA Sequencer, Osaka University startup challenges United States competition 
 Only Japanese version available at this time. Please [click here](https://www.nikkei.com/article/DGXMZO26113920V20C18A1000000/) to access the article.
 
 
 {:.jp}
-
 詳しくは[こちら](https://www.nikkei.com/article/DGXMZO26113920V20C18A1000000/)をご覧ください。
