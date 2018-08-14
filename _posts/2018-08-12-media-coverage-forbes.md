@@ -3,10 +3,10 @@ layout: post
  
  
 title:  "Quantum Biosystems featured in Forbes"
-excerpt: "Quantum Biosystems featured in Forbes."
+excerpt: "Forbes has featured Quantum Biosystems in an article about..."
 
 title-jp:  "フォーブスに弊社が紹介されました。"
-excerpt-jp: "フォーブスに弊社が紹介されました。"
+excerpt-jp: "フォーブスの大阪を拠点とするスタートアップ特集に。。。"
 
 date:   2018-08-12 00:09:00 +0900
 categories: news
