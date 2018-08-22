@@ -21,9 +21,8 @@ description: >- # this means to ignore newlines until "baseurl:"
         Quantum Sequencing Application of quantum mechanics to the development of innovative single-molecule DNA sequencers and genome alignment analytics platform
         クオンタムバイオシステムズ株式会社 最先端研究開発支援プログラム(FIRST)の研究成果を中心とした、DNAシークエンサー、及び、ゲノム配列解析プラットフォームの開発
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://quantumbiosystems.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: quantumbio
-#github_username:  jekyll
 
 # Build settings
 markdown: kramdown
