@@ -14,12 +14,12 @@ categories: news press release
 {:.en}  
 **Tokyo, Japan (November 30, 2018)** – Quantum Biosystems Inc. today announced that it has closed a Series C financing round of JPY 1 Billion ($8.9 Million), through the sale of preferred stock to SBI Investment Co., Ltd., a Japanese venture capital company. Details of the financing were not disclosed.      
   
-#   
+   &Tab;
       
 {:.en}  
 Quantum Biosystems is developing a novel, single molecule sequencing technology that will significantly reduce the cost of sequencing, while improving its accuracy. The company was founded in January 2013 as a spinout of Osaka University research that for the first time demonstrated the single molecule direct electrical sequencing of DNA/RNA with one base pair resolution. Quantum Biosystems’ ongoing research and development is applying this academic research by allowing massively-parallel nano-electrodes to detect current facilitated by electron tunneling and hopping. This sequencing will take place on a silicon device which will contain millions of electrodes and which will be manufactured using industrial semiconductor fabrication techniques.      
   
-#   
+   
      
 {:.en}  
 Quantum Biosystems plans to use the funding to continue the development of its sequencing technology by hiring additional scientists and expanding its academic and industry collaborations.    
