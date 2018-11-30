@@ -13,7 +13,7 @@ categories: news press release
 ---
  
 {:.en}  
-**Quantum Biosystems Raises $8.9 Million in Series C Financing Round**  
+# Quantum Biosystems Raises $8.9 Million in Series C Financing Round
 
 {:.en}  
 **Tokyo, Japan (November 30, 2018)** – Quantum Biosystems Inc. today announced that it has closed a Series C financing round of JPY 1 Billion ($8.9 Million), through the sale of preferred stock to SBI Investment Co., Ltd., a Japanese venture capital company. Details of the financing were not disclosed.  
@@ -25,9 +25,9 @@ Quantum Biosystems is developing a novel, single molecule sequencing technology 
 Quantum Biosystems plans to use the funding to continue the development of its sequencing technology by hiring additional scientists and expanding its academic and industry collaborations.  
   
 
-{:.jp}  
-**2018.11.30**  
-**クオンタムバイオシステムズ株式会社は１０億円の資金調達を完了**  
+{:.jp}   
+# クオンタムバイオシステムズ株式会社は１０億円の資金調達を完了 
+**2018.11.30** 
 
 
 {:.jp}  
