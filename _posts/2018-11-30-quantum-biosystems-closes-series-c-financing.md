@@ -8,7 +8,7 @@ excerpt: "Quantum Biosystems Inc. today announced that it has closed a Series C 
 title-jp:  "クオンタムバイオシステムズ株式会社は１０億円の資金調達を完了"
 excerpt-jp: "クオンタムバイオシステムズ株式会社は、SBIインベストメント株式会社から１０億円の資金調達を完了..."
 
-date:   2018-11-30 00:09:00 +0900
+date:   2018-11-30 00:09:00 +0000
 categories: news press release
 ---
  
@@ -20,9 +20,6 @@ categories: news press release
 Quantum Biosystems is developing a novel, single molecule sequencing technology that will significantly reduce the cost of sequencing, while improving its accuracy. The company was founded in January 2013 as a spinout of Osaka University research that for the first time demonstrated the single molecule direct electrical sequencing of DNA/RNA with one base pair resolution. Quantum Biosystems’ ongoing research and development is applying this academic research by allowing massively-parallel nano-electrodes to detect current facilitated by electron tunneling and hopping. This sequencing will take place on a silicon device which will contain millions of electrodes and which will be manufactured using industrial semiconductor fabrication techniques.  
 
 Quantum Biosystems plans to use the funding to continue the development of its sequencing technology by hiring additional scientists and expanding its academic and industry collaborations.
-
- 
- 
 {:.jp}
 **2018.11.30**  
 **クオンタムバイオシステムズ株式会社は１０億円の資金調達を完了**  
