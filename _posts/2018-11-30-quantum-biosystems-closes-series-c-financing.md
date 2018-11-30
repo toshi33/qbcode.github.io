@@ -11,6 +11,7 @@ excerpt-jp: "クオンタムバイオシステムズ株式会社は、SBIイン�
 date:   2018-11-30 00:09:00 +0000
 categories: news press release
 ---
+{:.press-release}
 {:.en}  
 **Tokyo, Japan (November 30, 2018)** – Quantum Biosystems Inc. today announced that it has closed a Series C financing round of JPY 1 Billion ($8.9 Million), through the sale of preferred stock to SBI Investment Co., Ltd., a Japanese venture capital company. Details of the financing were not disclosed.      
   
