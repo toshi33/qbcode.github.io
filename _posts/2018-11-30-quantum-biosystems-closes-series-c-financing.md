@@ -5,7 +5,7 @@ layout: post
 title:  "Quantum Biosystems Raises $8.9 Million in Series C Financing Round"
 excerpt: "Quantum Biosystems Inc. today announced that it has closed a Series C financing round of JPY 1 Billion..."
 
-title-jp:  "弊社は１０億円の資金調達を完了"
+title-jp:  "弊社は１０億円の資金調達を完了しました。"
 excerpt-jp: "クオンタムバイオシステムズ株式会社は、SBIインベストメント株式会社から１０億円の資金調達を完了..."
 
 date:   2018-11-30 00:09:00 +0000
