@@ -1,6 +1,6 @@
 <head>
 	<title>Quantum Biosystems, クオンタムバイオシステムズ ｜ 超高速DNAシークエンサー開発</title>
-	<meta http-equiv="Content-Security-Policy" content="default-src 'self' https://quantumbiosystems.com; script-src 'self' 'unsafe-inline' https://ajax.cloudflare.com https://ajax.googleapis.com https://fonts.googleapis.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' https://quantumbiosystems.com https://www.google-analytics.com; font-src 'self' https://fonts.gstatic.com" />
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self' https://quantumbiosystems.com; script-src 'self' https://ajax.cloudflare.com https://code.jquery.com https://fonts.googleapis.com https://www.google-analytics.com https://ajax.googleapis.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' https://quantumbiosystems.com https://www.google-analytics.com; font-src 'self' https://fonts.gstatic.com" />
 	<meta charset="utf-8">
 	<meta http-equiv="content-language" content="ja" />
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -10,24 +10,53 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="Quantum Biosystems,Quantum Sequencing,DNA sequencer,Genome sequencing,Single Molecule Analysis Technology,gating nanopore,クオンタムバイオシステムズ株式会社,DNAシークエンサー,ゲノム配列解析プラットフォーム開発,1分子解析技術,ゲーティングナノポア">
 	<meta name="robots" content="index,follow" />
-	<meta name="description" content="Quantum BiosSystems Inc. Quantum Sequencing Application of quantum mechanics to the development of innovative single-molecule DNA sequencers and genome alignment analytics platform クオンタムバイオシステムズ株式会社 最先端研究開発支援プログラム(FIRST)の研究成果を中心とした、DNAシークエンサー、及び、ゲノム配列解析プラットフォームの開発" />
+	<meta name="description" content="Quantum Biosystems Inc. Quantum Sequencing Application of quantum mechanics to the development of innovative single-molecule DNA sequencers and genome alignment analytics platform クオンタムバイオシステムズ株式会社 最先端研究開発支援プログラム(FIRST)の研究成果を中心とした、DNAシークエンサー、及び、ゲノム配列解析プラットフォームの開発" />
 	
 	<link rel="alternate" type="application/rss+xml" title="Quantum Biosystems &raquo; フィード" href="https://www.quantumbiosystems.com/feed" />
 	
-	<link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-	<link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+	<link
+		rel="stylesheet"
+		href="{{ "/assets/main.css" | relative_url }}">
+	<link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}"> 
 	{% if jekyll.environment == 'production' and site.google_analytics %}
 		{% include google-analytics.html %}
 	{% endif %}
 	
+<!--
 	<script type="text/javascript" src="{{ "/assets/js/jquery/jquery.js?ver=1.12.4" | relative_url }}"></script>
 	<script type="text/javascript" src="{{ "/assets/js/jquery/jquery-migrate.min.js?ver=1.4.1" | relative_url }}"></script>
-	
-	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+-->
+	<script
+	  src="https://code.jquery.com/jquery-1.12.4.min.js"
+	  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+	  crossorigin="anonymous"></script>
+	<script
+	  src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"
+	  integrity="sha256-SOuLUArmo4YXtXONKz+uxIGSKneCJG4x0nVcA0pFzV0="
+	  crossorigin="anonymous"></script>
 
-	<script type="text/javascript" src="{{ "/assets/js/jquery/jquery.mousewheel.min.js" | relative_url }}"></script>
-	<script type="text/javascript" src="{{ "/assets/js/jquery/jquery.easing.1.3.js" | relative_url }}"></script>
-	<script type="text/javascript" src="{{ "/assets/js/jquery/jquery.flexslider.js?ver=2.2.0" | relative_url }}"></script>
-	<script type="text/javascript" src="{{ "/assets/js/common.js" | relative_url }}"></script>
+<!--	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+-->
+	<script
+	  src="https://code.jquery.com/ui/1.10.3/jquery-ui.min.js"
+	  integrity="sha256-lnH4vnCtlKU2LmD0ZW1dU7ohTTKrcKP50WA9fa350cE="
+	  crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="{{ "/assets/js/jquery/jquery.mousewheel.min.js" | relative_url }}"
+	  integrity="sha256-RVvX0pCsH9bFmzi6s9asJcy00VjfjZbcByOG7H8NyRI="
+	  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="{{ "/assets/js/jquery/jquery.easing.1.3.js" | relative_url }}"
+	  integrity="sha256-NcaKr1V/vyiVOVOiUefq8yCCbyUnMoNEwxcQQc+3pcg="
+	  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="{{ "/assets/js/jquery/jquery.flexslider.js?ver=2.2.0" | relative_url }}"
+	  integrity="sha256-A3OXacdfHbgLXKz/pTuUOaMttop8m5j2c6fc9GNqvII="
+	  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="{{ "/assets/js/common.js" | relative_url }}"
+	  integrity="sha256-uqv1qWjkb1YHk47haRR9VYpPtJneETjZFWa7ufxMXVg="
+	  crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.10/webfont.js"
+	  integrity="sha256-okBzTwPDx6CSeHf6r/+yFOHoCTxWTmcv0mTuTzkOBgE="
+	  crossorigin="anonymous"></script>
 </head>
