@@ -18,5 +18,5 @@ CEO Toshihiko Honkura was interviewed by Nikkei BP about using DNA sequencing to
 
 
 {:.jp}
-日経BP Beyond Health【特集】AI×ゲノミクスでがんに克つにおいてシーケンサーのさらなる進化を推し進め、シーケンサーをより身近なものにしようと挑戦し続ける企業として弊社が取り上げられ、弊社代表取締役本蔵俊彦が取材を受けました。
+日経BP Beyond Health【特集】AI×ゲノミクスでがんに克つにおいてシーケンサーのさらなる進化を推し進め、より身近なものにしようと挑戦し続ける企業として弊社が取り上げられ、弊社代表取締役本蔵俊彦が取材を受けました。
 [https://project.nikkeibp.co.jp/behealth/atcl/feature/00013/070400009/?P=1](https://project.nikkeibp.co.jp/behealth/atcl/feature/00013/070400009/?P=1)
