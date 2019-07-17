@@ -19,5 +19,5 @@ Permission to distribute file granted by Nikkan Kogyo Shimbun to Quantum Biosyst
 
 {:.jp}
 日刊工業新聞　2019年７月15日号「つなぐ」時代・世界・経済　Jスタ-トアップ(5)クオンタムバイオシステムズにおいて弊社が取り上げられました。  
-[PDF of Article](/download/pdf/2019-07-15_Nikkan_Kogyo_Shinbun_Quantum_Biosystems.pdf)  
+[PDF](/download/pdf/2019-07-15_Nikkan_Kogyo_Shinbun_Quantum_Biosystems.pdf)  
 この記事は日刊工業新聞社の転載許諾を受けています。  
