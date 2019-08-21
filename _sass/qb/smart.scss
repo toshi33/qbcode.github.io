@@ -17,7 +17,7 @@
 
 
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 1080px) {
 /* 1.----------------------------------------- */
 #header {display:none;}
 
@@ -109,7 +109,7 @@
 }
 
 #sph_navi li.each_navi li {
-	background:url(/lib/img/common/arrow_sph_menu.png) #e7e7ea no-repeat 10px 15px;
+	background:url(/assets/img/common/arrow_sph_menu.png) #e7e7ea no-repeat 10px 15px;
 	background-size:5px 10px;
 	border-top:1px solid #ffffff;
 }
