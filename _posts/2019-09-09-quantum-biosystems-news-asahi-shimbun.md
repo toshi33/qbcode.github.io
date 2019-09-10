@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title:  "Quantum Biosystems CEO Toshihiko Honkura inteview in the Asahi Shimbun."
+title:  "Quantum Biosystems CEO Toshihiko Honkura interview in the Asahi Shimbun."
 excerpt: "Quantum Biosystems CEO Toshihiko Honkura featured in the Asahi Shimbun. Check out..."
 
 title-jp:  "弊社代表取締役本蔵俊彦が朝日新聞の取材を受けました。"
