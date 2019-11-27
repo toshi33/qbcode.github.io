@@ -12,9 +12,12 @@ categories: news
 ---
 
 {:.en}
-Quantum Biosystems was featured in the November 18th, 2019 edition of The Nikkei. Please visit The Nikkei website for more details.
+Quantum Biosystems was featured in the November 18th, 2019 edition of The Nikkei. Please visit The Nikkei website for more details.  
+Article in Japanese only; subscription may be required for access.  
+[https://www.nikkei.com/article/DGXMZO52186870U9A111C1FFR000/](https://www.nikkei.com/article/DGXMZO52186870U9A111C1FFR000/)  
 
 
 {:.jp}
-日本経済新聞2019年11月18日号「NEXTユニコーン解剖」に弊社が掲載されました。  
+日本経済新聞2019年11月18日号「NEXTユニコーン解剖」に弊社が掲載されました。    
+[https://www.nikkei.com/article/DGXMZO52186870U9A111C1FFR000/](https://www.nikkei.com/article/DGXMZO52186870U9A111C1FFR000/)  
 
